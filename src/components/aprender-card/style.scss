@@ -1,0 +1,36 @@
+@import '/global.scss';
+
+
+.imgAprender{
+    width: 58px;
+    height: 58px;
+}
+
+.nameCourse{
+    font-size: 24px;
+    color: #53358D;
+    text-decoration-line: none;
+    font-weight: 600;
+    margin-top: -5px;
+}
+
+.nameCourse:hover{
+    font-size: 25px;
+    color: #260d58;
+    text-decoration-line: none;
+    margin-top: -5px;
+    font-weight: 600;
+}
+.resTime{
+    font-size: 14px;
+    color: #8A8A8A;
+}
+.aprender-card{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5px;
+}
+
+.texto-aprender{
+    margin-left: -10px;
+}

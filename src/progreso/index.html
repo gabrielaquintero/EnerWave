@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.scss">
+    <title>Document</title>
+</head>
+<body>
+
+    <main>
+        <aside>
+            <nav-bar status="learning"></nav-bar>
+            <script type="module" src="../components/nav-bar/nav-bar.js"></script>
+        </aside>
+            
+<article id="pantalla">
+        
+<div class="titulos">
+    <div class="titulo-flecha">
+        <img src="/icons/flecha-naranja-izquierda.svg" alt="">
+        <h2>Tu progreso</h2>
+        <div class="foto">
+            <img id="top-bar-profile-img" src="/images/binnacle-profile3.webp" alt="">
+        </div>
+    </div>
+    <div class="texto-gris">
+        <p>¡Vas por buen camino, Next!</p>
+    </div>
+    <div class="rayo-numero">
+        <img src="/icons/rayo.svg" alt="">
+        <h1>3</h1>
+        <p>Puesto actual en el ranking</p>
+    </div>
+</div>
+
+<div class="rectangulos-medios">
+    <div class="primer-rect">
+        <div class="promedio">
+            <img src="/icons/icono-archivo-naranja.svg" alt="">
+            <div class="texto-promedio">
+                <h5>Promedio</h5>
+                <h4>100</h4>
+            </div>
+        </div>
+
+        <div class="exp">
+            <img src="/icons/icono-medalla-morada.svg" alt="">
+            <div class="texto-exp">
+                <h5>EXP</h5>
+                <h4>700</h4>
+            </div>
+        </div>
+    </div>
+
+    <div class="segundo-rect">
+        <div class="cuadro1">
+            <img src="/icons/icono-medalla-naranja.svg" alt="">
+            <h4>Bronce</h4>
+        </div>
+        <div class="cuadro2">
+            <img src="/icons/icono-medalla-gris.svg" alt="">
+            <h4>Plata</h4>
+        </div>
+        <div class="cuadro3">
+            <img src="/icons/icono-medalla-gris.svg" alt="">
+            <h4>Oro</h4>
+        </div>
+        <div class="cuadro4">
+            <img src="/icons/icono-trofeo-gris.svg" alt="">
+            <h4>Diam</h4>
+        </div>
+</div>
+    
+    <div class="tercer-rect">
+        <img src="/icons/icono-circulo-naranja.svg" alt="">
+        <h5>60%</h5>
+        <h4>En progreso</h4>
+    </div>
+    <div class="cuarto-rect">
+        <img src="/icons/icono-circulo-morado.svg" alt="">
+        <h5>40%</h5>
+        <h4>Por completar</h4>
+    </div>
+</div>
+
+<div class="rectangulos-grandes">
+
+    <div class="ranking">
+        <h2>Ranking actual</h2>
+        <div class="orden">
+            <ranking-card type rankingPosition="1" imgProfile="/images/jota.png" nameProfile="Jota" rankingPoints="1000EXP" advancePercent="100%" advanceBar="100%" ></ranking-card>
+            <ranking-card type rankingPosition="2" imgProfile="/images/ross.png" nameProfile="Ross" rankingPoints="800EXP" advancePercent="90%" advanceBar="90%" ></ranking-card>  
+            <ranking-card type rankingPosition="3" imgProfile="/images/nex.png" nameProfile="Nex" rankingPoints="700EXP" advancePercent="80%" advanceBar="80%" ></ranking-card>
+            <ranking-card type rankingPosition="4" imgProfile="/images/lau.png" nameProfile="Lau" rankingPoints="550EXP" advancePercent="70%" advanceBar="70%" ></ranking-card>
+            <ranking-card type rankingPosition="2" imgProfile="/images/ross.png" nameProfile="Ross" rankingPoints="800EXP" advancePercent="90%" advanceBar="90%" ></ranking-card>  
+            <ranking-card type rankingPosition="3" imgProfile="/images/nex.png" nameProfile="Nex" rankingPoints="700EXP" advancePercent="80%" advanceBar="80%" ></ranking-card>
+            <ranking-card type rankingPosition="4" imgProfile="/images/lau.png" nameProfile="Lau" rankingPoints="550EXP" advancePercent="70%" advanceBar="70%" ></ranking-card>
+            <script type="module" src="../components/ranking-card/ranking-card.js"></script>
+        </div>
+    </div>
+
+    <div class="aprende">
+            <aprender-card nameCourse="Aprender a usar la..." resTime="Quedan 2 días" ></aprender-card>
+            <aprender-card nameCourse="Política de privac..." resTime="Quedan 5 días" ></aprender-card>
+            <aprender-card nameCourse="Capacitacón - trab..." resTime="Quedan 10 días" ></aprender-card>
+            <aprender-card nameCourse="Practicando con ca..." resTime="Quedan 15 días" ></aprender-card>
+            <aprender-card nameCourse="Optimiza tu tiempo..." resTime="Quedan 30 días" ></aprender-card>
+            
+            <script type="module" src="../components/aprender-card/aprender-card.js"></script>
+    </div>
+
+    <div class="historial">
+        <h2>Historial de EXP</h2>
+
+        <hr style="
+        width: 300px;
+        margin-top: 10px;
+        color: #9f9fa0;
+        height: 1px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        ">
+<div class="tarjetas-exp">
+        <historial-card semana="semana 1 Sept" pointsExp="+1000 EXP"></historial-card>
+        <historial-card semana="semana 2 Sept" pointsExp="+500 EXP"></historial-card>
+        <historial-card semana="semana 3 Sept" pointsExp="+100 EXP"></historial-card>
+        <historial-card semana="semana 4 Sept" pointsExp="+1000 EXP"></historial-card>
+        <historial-card semana="semana 1 Oct" pointsExp="+900 EXP"></historial-card>
+        <historial-card semana="semana 2 Oct" pointsExp="+300 EXP"></historial-card>
+        <historial-card semana="semana 3 Oct" pointsExp="+1000 EXP"></historial-card>
+        <historial-card semana="semana 4 Oct" pointsExp="+1000 EXP"></historial-card>
+        <historial-card semana="semana 1 Nov" pointsExp="+100 EXP"></historial-card>
+        <historial-card semana="semana 2 Nov" pointsExp="+400 EXP"></historial-card>
+        <historial-card semana="semana 3 Nov" pointsExp="+800 EXP"></historial-card>
+            
+            <script type="module" src="../components/historial-card/historial-card.js"></script>
+        </div>
+    </div>
+
+
+
+</div>
+
+</article>
+    </main>
+    
+</body>
+</html>
+
+

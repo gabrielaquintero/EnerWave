@@ -1,0 +1,61 @@
+@import '/global.scss';
+
+#top-bar {
+    display: flex;
+    justify-content: space-between;
+    height: 8vh;
+    margin: 0 2%;
+}
+
+#top-bar-options{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+#top-bar-options li {
+    margin: 0 5%;
+}
+
+#top-bar-options li a {
+    text-decoration: none;
+    color: $gray-600;
+    font-family: "DMSans";
+    font-weight: 600;
+}
+
+#top-bar-profile {
+    display: flex;
+    align-items: center;
+}
+
+#top-bar-profile a {
+    text-decoration: none;
+    background-color: $orange-500;
+    display: flex;
+    align-items: center;
+    height: 45px;
+    padding: 0px 15px;
+    border-radius: 30px;
+}
+
+#top-bar-profile a p {
+    margin: 0;
+    font-family: "DMSans";
+    font-size: 15px;
+    font-weight: 600;
+    color: $white-600;
+}
+
+#top-bar-profile a img {
+    width: 20px;
+    margin-right: 10px;
+}
+
+#top-bar-profile-img {
+    width: 60px;
+    height: 60px;
+    margin-left: 30px;
+}

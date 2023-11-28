@@ -1,0 +1,144 @@
+@import '/global.scss';
+main{
+    background-color: #F2F4F7;
+}
+.course-card {
+    background-color: $white-600;
+    width: 400px;
+    height: 166px;
+    
+    border-radius: 25px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 40px;
+    margin-top: 8px;
+}
+
+.informacion{
+    height: 700px;
+    height: 221px;
+    padding: 8px;
+    margin-top: -10px;
+}
+
+.icon{
+    background-color: $purple-500;
+    padding: 18px;
+    border-radius: 25px 0px 0px 25px;
+    width: 145px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+}
+
+
+.course-card h3 {
+    font-family: "SF-Pro-Display";
+    font-size: 30px;
+    font-weight: 600;
+    color: $purple-500;
+    margin-top: 10px;
+}
+
+.course-card p {
+    margin-left: -4px;
+    width: fit-content;
+    font-family: "SF-Pro-Display";
+    font-size: 12px;
+    font-weight: 650;
+    padding: 3px 12px;
+    border-radius: 10px;
+    color: #8A8A8A;
+    margin-top: -13px;
+}
+
+.medalla{
+    height: 120%;
+    width: 120%;
+}
+.candado{
+    height: 100%;
+    width: 100%;
+}
+.lista{
+    height: 120%;
+    width: 120%;
+}
+
+h4{
+    size: 82px;
+    font-size: 20px;
+    margin-left: 8px;
+    margin-top: 12px;
+    color: $purple-500;
+    
+}
+
+.star{
+    width: 12%;
+    margin-top: -19px;
+    margin-left: 7px;
+   
+   
+}
+
+p{
+color: #454545;
+}
+
+.progress{
+    margin-left: 8px;
+    margin-top: -18px;
+    height: 7px;
+    width: 182px;
+}
+
+.progress-bar{
+    width: 25%;
+    background-color: #FFB97C;
+}
+
+.card-body{
+    margin-top: 4px;
+}
+
+.text{
+    margin-top: -10px
+}
+
+.information h4{
+    font-size: 20px;
+    color: #53358D;
+    font-weight: 630;
+}
+
+.information {
+    display: flex;
+    flex-direction: column!important;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: center;
+    align-items: flex-start!important;
+    height: 117px;
+}
+
+.time-star{
+    display: flex;
+}
+
+.information p {
+    margin-left: -4px !important;
+    margin-top: -2px !important;
+    color: #8A8A8A;
+    font-size: small;
+}
+
+
+.time-star {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+}

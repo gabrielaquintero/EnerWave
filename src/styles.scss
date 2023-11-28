@@ -1,0 +1,33 @@
+@import './global.scss';
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#enerbit-screen {
+    height: 900px;
+}
+
+#enerwave-button {
+    position: absolute;
+    text-decoration: none;
+    background-color: $white-600;
+    top: 447px;
+    left: 948px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: $gray-700;
+    padding: 17px 32px;
+    border-radius: 20px;
+}
+#enerwave-button p {
+    margin: 0;
+    font-size: 14px;
+}
+
+#enerwave-button img {
+    width: 16px;
+}

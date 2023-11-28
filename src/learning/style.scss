@@ -1,0 +1,224 @@
+@import '../global.scss';
+
+main{
+    display: flex;
+    flex-direction: row;
+
+}
+#todo{
+    padding-top: 40px;
+}
+.inicio h3{
+    margin-left: 40px;
+    size: 50px;
+    color: $purple-500;
+}
+
+.inicio h5{
+    margin-left: 40px;
+    size: 24px;
+    color: $gray-600;
+}
+
+.inicio{
+    display: flex;
+    justify-content: space-between;
+}
+
+#top-bar-profile-img {
+    width: 60px;
+    height: 60px;
+    margin-left: 30px;
+}
+#barra-busqueda {
+    display: flex;
+    width: 400px;
+    height: 48px;
+    border: 2px solid $gray-600;
+    border-radius: 30px;
+    align-items: center;
+    padding: 0 20px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-left: 70px;
+   
+}
+
+.barras{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: baseline;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+#filtro {
+    background-color:$white-600 ;
+    display: flex;
+    width: 400px;
+    height: 48px;
+    border-radius: 30px;
+    align-items: center;
+    padding: 0 20px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 40px;
+    margin-top: -21px;
+
+}
+
+#personalizar {
+    background-color:$orange-500 ;
+    display: flex;
+    width: 171px;
+    height: 48px;
+    border-radius: 30px;
+    align-items: center;
+    padding: 0 20px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 260px;
+    margin-top: -21px;
+}
+
+#barra-busqueda p{
+    margin: 0;
+    margin-left: 5px;
+    font-family: "DMSans";
+    font-size: 16px;
+    font-weight: 500;
+    color: $gray-600;
+}
+
+#filtro p{
+    margin: 0;
+    margin-left: 5px;
+    font-family: "DMSans";
+    font-size: 16px;
+    font-weight: 500;
+    color: $orange-500;
+}
+
+#personalizar p{
+    margin: 0;
+    margin-left: 5px;
+    font-family: "DMSans";
+    font-size: 16px;
+    font-weight: 500;
+    color: #FCFCFD;
+}
+
+.cursos h3{
+    margin-top: -20px;
+    margin-left: 40px;
+    size: 20px;
+    color: $orange-500;
+
+}
+
+.cursos{
+    margin-top: 40px;
+}
+
+.lista-cursos{
+    display: flex;
+    justify-content: space-between;
+    width: 901px;
+}
+
+.actualizaciones{
+    margin-top: 60px;
+}
+
+.actualizaciones h3{
+    margin-top: -26px;
+    margin-left: 40px;
+    size: 20px;
+    color: $orange-500;
+
+}
+
+.lista-actualizaciones{
+    display: flex;
+    width: 901px;
+    justify-content: space-between;
+}
+
+#flecha-naranja{
+    width: 30px;
+    height: 30px;
+    margin-left: 30px;
+}
+
+#informacion-flecha{
+    display: flex;
+    align-items: center;
+}
+
+.principal{
+    display: flex;
+    justify-content: space-between;
+}
+.podio{
+    margin-top: 65px;
+    width: 175px;
+    height: 422px;
+    background-color:#F8F8F8;
+    border-radius: 16px;
+}
+
+.titulo-progreso{
+    font-family: "DMSans";
+    background-color: #FFF;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100px;
+    justify-content: center;
+}
+
+.titulo-progreso h5{
+    font-family: "DMSans";
+    text-align: center;
+    font-size: 14px;
+    color: #8A8A8A;
+    font-weight: 600;
+}
+
+.titulo-progreso a{
+    color: #53358D;
+    font-weight: 650;
+    font-size: 18px;
+}
+
+.titulo-progreso a:hover{
+    color: #271056;
+    text-decoration-line: underline;
+    font-weight: 650;
+    font-size: 20px;
+}
+
+.tarjetas-podium{
+    font-family: "DMSans";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin-top: 11px;
+    
+
+}
+
+.linea-vertical {
+    width: 2px;
+    height: 400px;
+    background-color: #D6D6D6;
+    display: flex;
+    align-items: center;
+    margin-top: 74px;
+}
+
+

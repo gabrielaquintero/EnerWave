@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.scss">
+    <title>Document</title>
+</head>
+<body>
+
+    <main>
+        <aside>
+            <nav-bar status="learning"></nav-bar>
+            <script type="module" src="../components/nav-bar/nav-bar.js"></script>
+        </aside>
+            
+<article id="todo">
+        <div class="inicio">
+            <div class="nombre">
+                <h3>Buenas tardes, Nex</h3>
+                <h5>¿Qué vas a aprender hoy?</h5>
+            </div>
+            <img id="top-bar-profile-img" src="/images/binnacle-profile3.webp" alt="">
+        </div>
+
+        <div class="barras">
+
+            <div id="filtro">
+                <img src="/icons/icono-filtro.svg" alt="">
+                <p>Filtrar por</p>
+                <img src="/icons/icono-flecha.svg" alt="">
+            </div>
+
+            <div id="barra-busqueda">
+                <img src="/icons/lupa-icon.svg" alt="">
+                <p>Buscar</p>
+            </div> 
+
+            <div id="personalizar">
+                <img src="/icons/icono-personalizar.svg" alt="">
+                <p>Personalizar</p>
+            </div> 
+        </div>
+
+        <div class="principal">
+
+            <div class="tarjetas">
+
+     <div class="cursos">
+            <h3>Cursos requeridos</h3>
+        <div id="informacion-flecha">
+            <div class="lista-cursos">
+                <course-card type="medalla" title="Aprender a usar la plataforma" time=" Curso | (40 minutos)" percent="10% completado" progress="10%"></course-card>
+                <course-card type="candado" title="Politica de la privacidad" time=" Curso | (30 minutos)" percent="100% completado" progress="100%"></course-card>  
+                <script type="module" src="../components/course-card/course-card.js"></script>
+            </div>
+            <div id="flecha-lista-cursos">
+                <img id="flecha-naranja" src="/icons/flecha-derecha-naranja.svg" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="actualizaciones">
+            <h3>Actualizaciones</h3>
+        <div id="informacion-flecha">
+            <div class="lista-actualizaciones">
+                <course-card type="medalla" title="Practicando con casos de usos reales" time=" Curso | (20 minutos)" percent="80% completado" progress="80%"></course-card>
+                <course-card type="lista" title="Capacitacion-trabajo en equipo" time=" Curso | (60 minutos)" percent="60% completado" progress="60%"></course-card>
+                <script type="module" src="../components/course-card/course-card.js"></script>
+            </div>
+            <div id="flecha-lista-actualizaciones">
+                <img id="flecha-naranja" src="/icons/flecha-derecha-naranja.svg" alt="">
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="linea-vertical"></div>
+
+    
+    <div class="podio">
+        <div class="titulo-progreso">
+            <a href="/progreso/">Ver progreso</a>
+            <h5>¡Vas por buen camino!</h5>
+        </div>
+        <div class="tarjetas-podium">
+            <podium-card number="1" img="/images/jota.png" name="Jota" points="+1000"></podium-card>
+            <podium-card number="2" img="/images/ross.png" name="Ross" points="+800"></podium-card>
+            <podium-card number="3" img="/images/nex.png" name="Nex" points="+700"></podium-card>
+            <podium-card number="4" img="/images/lau.png" name="Lau" points="+650"></podium-card>
+            <script type="module" src="../components/podium-card/podium-card.js"></script>
+        </div>
+    </div>
+
+</div>
+
+
+
+
+</article>
+    </main>
+    
+</body>
+</html>
+
+

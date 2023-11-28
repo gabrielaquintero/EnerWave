@@ -1,0 +1,276 @@
+@import '../global.scss';
+
+main{
+    display: flex;
+    flex-direction: row;
+
+}
+#curso{
+    padding: 30px;
+    width: 100%;
+    margin-left: 0px;
+    background-color: #F2F4F7;
+}
+
+#top-bar-profile-img {
+    width: 60px;
+    height: 60px;
+    margin-left: 30px;
+}
+
+.titulo-curso{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 453px;
+}
+
+.titulo-curso h2{
+    font-size: 32px;
+    color: #53358D;
+}
+
+.texto-estrella{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 440px;
+    justify-content: space-between;
+    margin-top: -10px;
+}
+
+.texto-estrella h4{
+    color: #8A8A8A;
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 29px;
+}
+
+.texto-estrella p{
+    color: #8A8A8A;
+    font-size: 15px;
+    font-weight: 450;
+    margin-left: 17px;
+}
+
+
+.perfil{
+    width: 800px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.destacado{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* height: 19px; */
+    width: 214px;
+    justify-content: flex-start;
+    margin-top: 11px;
+}
+
+.curso-perfil{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#pausar{
+    width: 152px;
+    height: 39px;
+    background-color: #7347C9;
+    border-radius: 90px;
+    border: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#pausar p{
+    margin-top: 13px;
+    margin-bottom: 1rem;
+    margin-left: 9px;
+    color: #ffff;
+    font-size: 14px;
+}
+
+#terminar{
+    width: 152px;
+    height: 39px;
+    background-color: #E8710A;
+    border-radius: 90px;
+    border: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#terminar p{
+    margin-top: 13px;
+    margin-bottom: 1rem;
+    margin-left: 9px;
+    color: #ffff;
+    font-size: 14px;
+}
+
+.botones{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 390px;
+    justify-content: space-between;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.clases{
+    display: flex;
+    margin-left: 30px;
+    margin-top: 45px;
+    height: 417px;
+}
+
+.rect-clases{
+    display: flex;
+    flex-direction: column;
+    height: 449px;
+    justify-content: space-between;
+    margin-top: -7px;
+    margin-left: 14px
+
+}
+
+.rect1{
+    width: 518px;
+    height: 80px;
+    border-radius: 16px;
+    background-color: #FFFFFF;
+    padding: 11px;
+}
+
+.rect2{
+    width: 518px;
+    height: 80px;
+    border-radius: 16px;
+    background-color: #FFFFFF;
+    padding: 11px;
+}
+
+.rect3{
+    width: 518px;
+    height: 80px;
+    border-radius: 16px;
+    background-color: #FFFFFF;
+    padding: 11px;
+}
+
+.rect4{
+    width: 518px;
+    height: 80px;
+    border-radius: 16px;
+    background-color: #FFFFFF;
+    padding: 11px;
+}
+
+
+
+.rect1 a{
+    color: #53358D;
+    font-size: 25px;
+    margin-left: 15px;
+    text-decoration-line: none;
+    font-weight: 500;
+}
+
+.rect1 a:hover{
+    color: #2e1959;
+    font-size: 27px;
+    margin-left: 15px;
+    text-decoration-line: none;
+    font-weight: 500;
+}
+
+.rect-clases h6{
+    color: #53358D;
+    font-size: 25px;
+    margin-left: 15px;
+}
+
+.rect-clases p{
+    margin-top: -5px;
+    font-weight: 500;
+    margin-left: 15px;
+    color: #454545
+}
+
+.informacion-general{
+    width: 607px;
+    height: 528px;
+    border-radius: 16px;
+    background-color: white;
+    margin-top: 30px;
+    padding: 20px;
+}
+
+.todo-clases{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.titulo{
+    display: flex;
+    width: 353px;
+    justify-content: space-between;
+}
+
+.titulo h5{
+    font-size: 23px;
+    color: #53358D;
+}
+
+.informacion-general h6{
+    color: #454545;
+    font-size: 17px;
+}
+
+.informacion-general p{
+    color: #8A8A8A;
+    font-size: 14px;
+}
+.creado{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 89px;
+    justify-content: space-between;
+    margin-top: 24px;
+}
+
+.objetivos li{
+    color: #8A8A8A;
+    font-size: 14px;
+}
+
+.vencimiento{
+    display: flex;
+    width: 228px;
+    justify-content: space-between;
+    margin-top: 27px;
+}
+
+.vencimiento-fecha p{
+    font-weight: 500 ;
+    color: #E8710A ;
+}
+
+.chulo{
+    margin-top: -5px;
+}
+
+.reloj{
+    margin-top: -5px;
+}

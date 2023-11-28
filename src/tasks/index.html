@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mis tareas</title>
+    <link rel="stylesheet" href="./styles.scss">
+</head>
+<body>
+    <nav-bar status="home"></nav-bar>
+    <main>
+        <top-bar></top-bar>
+        <section id="tasks">
+            <div id="my-tasks">
+                <div id="my-tasks-profile">
+                    <img src="/images/binnacle-profile3.webp" alt="">
+                    <h2>Mis tareas</h2>
+                </div>
+
+                <div id="task-types">
+                    <div class="col">
+                        <nav class="task-type">
+                            <h4>Asignadas recientemente</h4>
+                            <img src="/icons/3points.svg" alt="">
+                        </nav>
+                        <div class="task-card">
+                            <nav style="background-color: #5DA283;" class="barra"></nav>
+                            <div>
+                                <img src="/icons/task-check-icon.svg" alt="">
+                                <p>Responder consultas de Sodicom por correo electrónico</p>
+                            </div>
+                            <p class="task-date">Sin fecha límite</p>
+                        </div>
+                        <div class="create-task-button">
+                            <a href="">
+                                <img src="/icons/create task-icon.svg" alt="">
+                                <p>
+                                    Añadir tarea</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <nav class="task-type">
+                            <h4>Para hacer hoy</h4>
+                            <img src="/icons/3points.svg" alt="">
+                        </nav>
+                        <div class="task-card">
+                            <nav style="background-color: #D1395A;" class="barra"></nav>
+                            <div>
+                                <img src="/icons/task-check-icon.svg" alt="">
+                                <p>Chequeo de zona eléctrica Yumbo</p>
+                            </div>
+                            <p class="task-date">Hoy</p>
+                        </div>
+                        <div class="create-task-button">
+                            <a href="">
+                                <img src="/icons/create task-icon.svg" alt="">
+                                <p>
+                                    Añadir tarea</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div style="margin-right: 0;" class="col">
+                        <nav class="task-type">
+                            <h4>Asignadas recientemente</h4>
+                            <img src="/icons/3points.svg" alt="">
+                        </nav>
+                        <div class="task-card">
+                            <nav style="background-color: #5DA283;" class="barra"></nav>
+                            <div>
+                                <img src="/icons/task-check-icon.svg" alt="">
+                                <p>Atender llamadas telefónicas de la Universidad ICESI</p>
+                            </div>
+                            <p class="task-date">Octubre 19</p>
+                        </div>
+                        <div class="task-card">
+                            <nav style="background-color: #F1BD6C;" class="barra"></nav>
+                            <div>
+                                <img src="/icons/task-check-icon.svg" alt="">
+                                <p>Seguimiento de reclamaciones a cliente 110536</p>
+                            </div>
+                            <p class="task-date">Octubre 31</p>
+                        </div>
+                        <div class="create-task-button">
+                            <a href="">
+                                <img src="/icons/create task-icon.svg" alt="">
+                                <p>
+                                    Añadir tarea</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script type="module" src="/components/top-bar/top-bar.js"></script>
+    <script type="module" src="/components/nav-bar/nav-bar.js"></script>
+</body>
+</html>

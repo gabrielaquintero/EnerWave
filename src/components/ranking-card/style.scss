@@ -1,0 +1,80 @@
+@import '/global.scss';
+
+.ranking-card{
+    height: 92px;
+    display: flex;
+    width: 353px;
+    justify-content: space-between;
+    margin-top: -11px;
+}
+
+
+.rankingPosition-imgProfile h4{
+    font-size: 30px;
+    color: #7347C9;
+    margin-left: 10px;
+}
+
+.rankingPosition-imgProfile{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    flex-wrap: nowrap;
+    align-items: center;}
+
+.todo-ranking{
+    display: flex;
+    flex-direction: column;
+    width: 248px;
+    margin-top: 10px;
+}
+
+.name-puntuacion{
+    display: flex;
+    margin-top: 8px;
+    width: 240px;
+    justify-content: space-between;
+}
+
+.imgProfile{
+    margin-left: 15px;
+    width: 45px;
+    height:45px;
+}
+
+
+
+#barra-ranking{
+    margin-top: -14px;
+    height: 7px;
+    
+}
+
+.barra-porcentaje p{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 12px;
+    color: #8A8A8A;
+}
+
+.name-puntuacion p{
+    margin-top: 3px;
+    color: #7347C9;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.barra-porcentaje{
+    margin-top: -20px;
+    width: 156px;
+}
+
+.nameProfile{
+    color: #8A8A8A;
+    font-size: 24px;
+}
+
+.progress-bar{
+    background-color: $purple-500;
+}

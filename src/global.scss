@@ -1,0 +1,134 @@
+@import "bootstrap/scss/bootstrap";
+
+
+//colors
+$purple-800: #E0D0FF;
+$purple-700: #A175F6;
+$purple-600: #7347C9;
+$purple-500: #53358D;
+$purple-400: #381A71;
+$purple-300: #230D4D;
+$purple-200: #10002E;
+
+$orange-800: #FFE3CA;
+$orange-700: #FFB97C;
+$orange-600: #FF983F;
+$orange-500: #E8710A;
+$orange-400: #C25A00;
+$orange-300: #8C4100;
+$orange-200: #4A2300;
+
+$gray-700: #D6D6D6;
+$gray-600: #8A8A8A;
+$gray-500: #454545;
+$gray-400: #222;
+$gray-300: #0B0B0B;
+
+$white-600: #FFF;
+$white-500: #F5F5F5;
+$white-400: #F0F0F0;
+
+//Fonts
+
+$font-path: "/fonts/";
+
+@font-face {
+    font-family: "SF-Pro-Display";
+    src: url("#{$font-path}SF-Pro-Display-Ultralight.ttf") format("truetype");
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: "SF-Pro-Display";
+    src: url("#{$font-path}SF-Pro-Display-Thin.ttf") format("truetype");
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: "SF-Pro-Display";
+    src: url("#{$font-path}SF-Pro-Display-Light.ttf") format("truetype");
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: "SF-Pro-Display";
+    src: url("#{$font-path}SF-Pro-Display-Regular.ttf") format("truetype");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "SF-Pro-Display";
+    src: url("#{$font-path}SF-Pro-Display-Medium.ttf") format("truetype");
+    font-weight: 500;
+}
+@font-face {
+    font-family: "SF-Pro-Display";
+    src: url("#{$font-path}SF-Pro-Display-Semibold.ttf") format("truetype");
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: "SF-Pro-Display";
+    src: url("#{$font-path}SF-Pro-Display-Bold.ttf") format("truetype");
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "SF-Pro-Display";
+    src: url("#{$font-path}SF-Pro-Display-Heavy.ttf") format("truetype");
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: "SF-Pro-Display";
+    src: url("#{$font-path}SF-Pro-Display-Black.ttf") format("truetype");
+    font-weight: 900;
+}
+
+//DM SANS
+
+@font-face {
+    font-family: "DMSans";
+    src: url("#{$font-path}DMSans-Thin.ttf") format("truetype");
+    font-weight: 100;
+}
+@font-face {
+    font-family: "DMSans";
+    src: url("#{$font-path}DMSans-ExtraLight.ttf") format("truetype");
+    font-weight: 200;
+}
+@font-face {
+    font-family: "DMSans";
+    src: url("#{$font-path}DMSans-Light.ttf") format("truetype");
+    font-weight: 300;
+}
+@font-face {
+    font-family: "DMSans";
+    src: url("#{$font-path}DMSans-Regular.ttf") format("truetype");
+    font-weight: 400;
+}
+@font-face {
+    font-family: "DMSans";
+    src: url("#{$font-path}DMSans-Medium.ttf") format("truetype");
+    font-weight: 500;
+}
+@font-face {
+    font-family: "DMSans";
+    src: url("#{$font-path}DMSans-SemiBold.ttf") format("truetype");
+    font-weight: 600;
+}
+@font-face {
+    font-family: "DMSans";
+    src: url("#{$font-path}DMSans-Bold.ttf") format("truetype");
+    font-weight: 700;
+}
+@font-face {
+    font-family: "DMSans";
+    src: url("#{$font-path}DMSans-ExtraBold.ttf") format("truetype");
+    font-weight: 800;
+}
+@font-face {
+    font-family: "DMSans";
+    src: url("#{$font-path}DMSans-Black.ttf") format("truetype");
+    font-weight: 900;
+}

@@ -1,0 +1,471 @@
+@import '../global.scss';
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    height: 100%;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    background-color: #F2F4F7;
+}
+
+#control-panel {
+    display: flex;
+    width: 93vw;
+    height: 87vh;
+    display: flex;
+    background-color: #F2F4F7;
+}
+
+#control-panel div section {
+    background-color: white;
+    flex: 1;
+    margin: 20px 10px;
+    border-radius: 15px;
+    box-shadow: 0px 2.59046px 9.71423px 0px rgba(37, 36, 47, 0.07);
+}
+
+#col1 {
+    width: 27%;
+}
+#col2 {
+    width: 43%;
+}
+
+#col3 {
+    width: 30%;
+}
+
+#welcome {
+    height: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20% 0;
+}
+
+#welcome h4{
+    color: $orange-500;
+    font-family: "SF-Pro-Display";
+    font-weight: 400;
+    font-size: 14px;
+}
+
+#welcome h2 {
+    color: $purple-500;
+    font-family: "SF-Pro-Display";
+    font-size: 24px;
+    font-weight: 600;
+}
+
+#welcome p {
+    color: $gray-500;
+    font-size: 14px;
+    font-family: "SF-Pro-Display";
+    font-weight: 400;
+}
+
+#binnacle {
+    height: 75%;
+    overflow-y: hidden;
+}
+
+#binnacle-title {
+    background-color: $orange-500;
+    padding: 5% 5% 4% 8%;
+}
+
+#binnacle-title h3 {
+    color: $white-600;
+    font-family: "SF-Pro-Display";
+    font-size: 16px;
+}
+
+#binnacle-cards {
+    display: grid;
+    padding: 2% 6%;
+    background-color: $white-600;
+}
+
+.binnacle-card {
+    background-color: $white-600;
+    border: 2px solid $white-400;
+    border-radius: 10px;
+    padding: 7%;
+    margin: 5% 0;
+    filter: drop-shadow(0px 4px 15px rgba(37, 36, 47, 0.03));
+    box-shadow: 0px 4px 15px 0px rgba(37, 36, 47, 0.03);
+}
+
+.binnacle-card-profile {
+    display: flex;
+}
+
+.binnacle-card-profile img {
+    width: 40px;
+    height: 40px;
+    margin-right: 5%;
+}
+
+.binnacle-card-profile div {
+    display: flex;
+    flex-direction: column;
+}
+
+.binnacle-card-profile div h4 {
+    font-family: "SF-Pro-Display";
+    font-size: 16px;
+    font-weight: 700;
+    color: $gray-500;
+    margin: 0;
+}
+
+.binnacle-card-profile div p {
+    font-family: "SF-Pro-Display";
+    font-size: 12px;
+    font-weight: 400;
+    color: $gray-600;
+}
+
+.binnacle-card-info p{
+    font-family: "SF-Pro-Display";
+    font-size: 14px;
+    font-weight: 400;
+    color: $gray-300;
+}
+
+.binnacle-card-icons {
+    display: flex;
+    justify-content: end;
+}
+
+#task {
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: auto;
+}
+
+#task-profile {
+    width: 100%;
+    display: flex;
+    padding: 15px 20px;
+    align-items: center;
+}
+
+#task-profile img{
+    width: 60px;
+    height: 60px;
+    margin-right: 3%;
+}
+
+#task-profile div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+}
+
+#task-profile div h3 {
+    font-family: "DMSans";
+    font-weight: 700;
+    color: $purple-500;
+    font-size: 23px;
+}
+
+#task-profile div nav {
+    display: flex;
+}
+
+#task-profile div nav p {
+    
+    font-family: "DMSans";
+    color: $gray-600;
+    margin: 0;
+    margin-right: 5%;
+    font-weight: 600;
+}
+
+#task hr {
+    margin: 0;
+}
+
+#task-list {
+    margin: 0 5%;
+    overflow: hidden;
+}
+
+#task-list div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 12px 0;
+}
+
+#task-list div nav {
+    display: flex;
+    align-items: center;
+}
+
+#task-list div nav img {
+    width: 20px;
+    margin-right: 5px;
+}
+
+#task-list div nav p {
+    margin: 0;
+    font-family: "DMSans";
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.task-time {
+    font-family: "DMSans";
+    font-size: 12px;
+    margin: 0;
+    color: $gray-600;
+}
+
+#create-task-button {
+    display: flex;
+    justify-content: end;
+}
+
+#create-task-button a {
+    background-color: $orange-500;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding: 15px 20px;
+    border-radius: 50px;
+    margin: 5%;
+}
+
+
+#create-task-button a p {
+    color: $white-600;
+    text-decoration: none;
+    font-family: "DMSans";
+    font-size: 14px;
+    font-weight: 700;
+    margin: 0;
+    margin-left: 5px;
+}
+
+#update {
+    height: 40%;
+    overflow: auto;
+    padding: 3% 3%;
+}
+
+#update h3 {
+    font-family: "DMSans";
+    color: $orange-500;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+#update-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#update-cards nav {
+    padding-top: 40%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 3%;
+    border-radius: 15px;
+}
+
+#update-cards nav p {
+    font-family: "DMSans";
+    color: $white-600;
+    font-size: 17px;
+    font-weight: 700;
+    margin: 10px 20px;
+}
+
+
+#calendar {
+    height: 30%;
+    display: flex;
+    overflow: hidden;
+}
+
+#calendar-header {
+    background-color: $purple-500;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#calendar-header div {
+    color: $white-600;
+    margin-top: 15px;
+}
+
+#calendar-header div p {
+    margin: 0;
+    font-family: "DMSans";
+    font-size: 14px;
+}
+
+#calendar-header div h1 {
+    margin: 0;
+    font-family: "DMSans";
+    font-size: 70px;
+}
+
+#calendar-data {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    padding: 4%;
+}
+
+#calendar-data nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+#calendar-data nav p {
+    margin: 0;
+    font-family: "DMSans";
+    font-size: 14;
+    color: $purple-500;
+    font-weight: 700;
+}
+
+#calendar-data div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+#calendar-data div p {
+    margin: 0;
+    text-align: center;
+    padding: 7px 0;
+    border-radius: 20px;
+    font-family: "DMSans";
+    font-size: 12px;
+}
+
+#tickets {
+    height: 70%;
+    overflow: hidden;
+    padding: 7% 7%;
+}
+
+#tickets-title {
+    font-family: "DMSans";
+    color: $orange-500;
+    font-size: 23px;
+    font-weight: 700;
+    margin: 0;
+}
+
+#tickets hr {
+    margin: 0;
+    color: $orange-500;
+}
+
+#tickets-status {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 20px 0;
+}
+#tickets-status nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#tickets-status nav h2 {
+    color: $gray-300;
+    font-family: "DMSans";
+    font-size: 36px;
+    font-weight: 700;
+}
+
+#tickets-status nav p {
+    color: $gray-300;
+    font-family: "DMSans";
+    font-size: 14px;
+}
+
+#tickets-subtitle {
+    font-family: "DMSans";
+    font-size: 16px;
+    color: $orange-500;
+}
+
+.ticket-priority {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.ticket-priority nav {
+    text-align: center;
+    border: 2px solid;
+    padding: 10px 25px;
+    border-radius: 50px;
+}
+
+.ticket-priority nav p {
+    font-family: "SF-Pro-Display";
+    font-weight: 700;
+    font-size: 16px;
+    margin: 0;
+}
+.ticket-priority nav h1 {
+    font-family: "DMSans";
+    font-weight: 700;
+    font-size: 35px;
+}
+
+#verde {
+    border: 2px solid #5DA283;
+}
+
+#verde p {
+    color: #5DA283;
+}
+#amarillo {
+    border: 2px solid #F1BD6C;
+}
+
+#amarillo p {
+    color: #F1BD6C;
+}
+#rojo {
+    border: 2px solid #D1395A;
+}
+
+#rojo p {
+    color: #D1395A;
+}
+#azul {
+    border: 2px solid #00B3FF;
+}
+
+#azul p {
+    color: #00B3FF;
+}

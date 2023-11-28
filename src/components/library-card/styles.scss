@@ -1,0 +1,57 @@
+@import '/global.scss';
+
+.library-card {
+    background-color: $white-600;
+    padding: 10%;
+    border-radius: 25px;
+}
+
+.manuals {
+    background-color: $purple-400;
+    padding: 18px;
+    border-radius: 30px;
+}
+
+.guides {
+    background-color: $orange-500;
+    padding: 18px;
+    border-radius: 30px;
+}
+
+.policies {
+    background-color: $purple-600;
+    padding: 18px;
+    border-radius: 30px;
+}
+
+.library-card h3 {
+    font-family: "SF-Pro-Display";
+    font-size: 22px;
+    font-weight: 600;
+    color: $gray-500;
+    margin-top: 10px;
+}
+
+.library-card p {
+    background-color: $white-400;
+    width: fit-content;
+    font-family: "SF-Pro-Display";
+    font-size: 12px;
+    font-weight: 400;
+    padding: 3px 12px;
+    border-radius: 10px;
+    color: $gray-600;
+}
+
+.library-card div {
+    display: flex;
+    justify-content: end;
+}
+
+.library-card div a {
+    color: $orange-500;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: "SF-Pro-Display";
+    font-weight: 400;
+}

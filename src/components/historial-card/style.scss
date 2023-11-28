@@ -1,0 +1,36 @@
+@import '/global.scss';
+
+
+.historial-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 285px
+}
+
+.promedio-semana{
+    display: flex;
+    justify-content: space-between;
+    width: 178px;
+
+}
+
+.promedio{
+color: #7347C9;
+font-size: 16px;
+}
+
+.semana{
+color: #454545;
+font-size: 14px;
+}
+
+.punticos h2{
+    color: #E8710A;
+    font-size: 16px;
+    
+}
+
+.punticos{
+    margin-top: -18px;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblioteca</title>
+    <link rel="stylesheet" href="./styles.scss">
+</head>
+<body>
+    <nav-bar status="library"></nav-bar>
+    <main>
+        <top-bar></top-bar>
+        <section id="library">
+            <div id="barra-busqueda">
+                <img src="/icons/lupa-icon.svg" alt="">
+                <p>Buscar</p>
+            </div>
+            <h1 id="library-title">Biblioteca de Recursos</h1>
+            <div id="resource-library-cards">
+                <a id="manuals" href="/library/manuals/">
+                    <div>
+                        <img src="/icons/manuals-icon.svg" alt="">
+                        <h3>Manuales</h3>
+                    </div>
+                    <p>Herramientas prácticas y recursos actualizados para facilitar 
+                        el aprendimiento del manejo de nuestras plataformas y agilizar 
+                        nuestros servicios de atención.</p>
+                </a>
+                <a id="guides" href="/library/guides/">
+                    <div>
+                        <img src="/icons/guide-icon.svg" alt="">
+                        <h3>Guías de usuarios</h3>
+                    </div>
+                    <p>Recursos detallados y fáciles de comprender para resolver 
+                        eficazmente las consultas y problemas relacionados con nuestros 
+                        productos y servicios de energía.</p>
+                </a>
+                <a id="policies" href="/library/policies/">
+                    <div>
+                        <img src="/icons/policies-icon.svg" alt="">
+                        <h3>Políticas</h3>
+                    </div>
+                    <p>Guias completas de los procedimientos a seguir para cada caso de 
+                        servicio. Desde políticas de servicio al cliente hasta pautas 
+                        de resolución de problemas.</p>
+                </a>
+            </div>
+            <div id="library-updates">
+                <div id="library-update-title">
+                    <h4>Actualizados Recientemente</h4>
+                    <a href="">Ver todos ›</a>
+                </div>
+                <nav>
+                    <library-card type="manuals" title="Introducción a Stadium: Bitorins" date="20 mayo 2023"></library-card>
+                    <library-card type="manuals" title="Introducción a ODOO: Bitorins" date="26 mayo 2023"></library-card>
+                    <library-card type="guides" title="Consultas de Facturación" date="02 junio 2023"></library-card>
+                    <library-card type="policies" title="Gestión de tickets prioritarios" date="11 junio 2023"></library-card>
+                </nav>
+            </div>
+        </section>
+    </main>
+    <script type="module" src="../components/library-card/library-card.js"></script>
+    <script type="module" src="../components/top-bar/top-bar.js"></script>
+    <script type="module" src="../components/nav-bar/nav-bar.js"></script>
+</body>
+</html>

@@ -1,0 +1,61 @@
+@import '/global.scss';
+
+.podium-card{
+    background-color: #FFF;
+    display: flex;
+    margin-top: 14px;
+    width: 160px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    height: 59px;
+    justify-content: space-between;
+    padding: 5px;
+    align-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.name{
+    margin-top: 11px;
+    margin-left: 10px;
+}
+
+.photo-name{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.photo-name p{
+    margin-left: 4px;
+    margin-top: 13px;
+    color: #8A8A8A;
+    font-size: small;
+}
+
+.puntuacion h6{
+    margin-top: 7px;
+    font-weight: 400;
+    color: #7347C9;
+}
+
+.number h4{
+    margin-top: 9px;
+    color: #7347C9;
+    font-weight: 700
+}
+
+.number{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo{
+    margin-left: 10px;
+}
